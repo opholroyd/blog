@@ -1,0 +1,146 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0E141D;
+}
+
+.optionBar {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.btn {
+    height: 20px;
+    width: 5em;
+    border-radius: 5px;
+    border: none;
+    background-color: #fa8500;
+    color: #f4f4f4;
+    font-weight: 1000;
+    font-size: 15px;
+}
+
+.search {
+    height: 20px;
+    width: 200px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    color: #000000;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.nameHead {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.name {
+    padding: 10px;
+    font-size: 3.5em;
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+    color: #fa8500;
+    text-shadow: 1px 1px 2px #000000;
+    padding: 0;
+    font-weight: 700;
+}
+
+.social {
+    margin: 0.6em;
+}
+
+.titleCont {
+    height: 0;
+    width: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.icons {
+    width: 1.3em;
+    height: 1.3em;
+    filter: invert(100%);
+    margin: 0 5px 0 5px;
+}
+
+.subHead {
+    display: flex;
+    width: 100%;
+    height: 10em;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.navbar {
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: darkgray;
+    box-shadow: 1px 1px 2px #000000;
+    font-weight: 700;
+    height: 40px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #f4f4f4;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    color: #ffffff;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.postbox {
+    z-index: -1;
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+.post {
+    margin: 10px;
+    padding: 5px;
+    background: grey;
+    border-radius: 5px;
+    border: solid 2px #000000;
+}
+
+@media only screen and (max-width: 600px) {
+    .name {
+        padding: 20px;
+        font-size: 2em;
+        margin: 0;
+        font-family: 'Pacifico', cursive;
+        color: #ffffff;
+        text-shadow: 1px 1px 2px #000000;
+    }
+}
